@@ -53,3 +53,7 @@ venv\Scripts\activate     # on Windows
 pip install -r requirements.txt
 load model_max with tensorflow
 use show_ladning func to display landing in notebook
+```
+## 🪳 Bugs
+Model was trained on numpy 1.26.4, but when installing "gymnasium[other]" needed to record Lunar Lander it automatically
+changes numpy to 2.24 which causes tensorflow to throw an error
