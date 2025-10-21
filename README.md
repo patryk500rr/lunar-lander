@@ -3,6 +3,7 @@
 This project implements a **Deep Q-Network (DQN)** agent to solve the classic [LunarLander-v3](https://gymnasium.farama.org/environments/box2d/lunar_lander/) environment from **Gymnasium**.  
 The goal is to train an agent that learns to control the lander to safely reach the landing pad using reinforcement learning.
 
+https://youtu.be/GvOSRJf_hhw
 ---
 
 ## 🧠 Overview
@@ -16,13 +17,14 @@ The agent observes the lander’s state (position, velocity, angle, leg contact,
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure 
+```bash
 lunar-lander/
 │
 ├── models/ # Trained models (ready to use)
 │ └── model_max.h5
 │
-├── videos/ # Training and evaluation videos
+├── videos/
 │ ├── model_1/
 │ │ ├── eval-episode-1.mp4
 │ │ └── eval-episode-2.mp4
@@ -30,7 +32,7 @@ lunar-lander/
 │
 ├── utils.py # Helper functions (get_action, replay buffer, etc.)
 └── README.md
-
+```
 ---
 
 ## 🎥 Preview
